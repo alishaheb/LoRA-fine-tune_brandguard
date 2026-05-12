@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Project artefacts (regeneratable, too big for git)
+models/
+vector_store/
+logs/
+*.zip
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
