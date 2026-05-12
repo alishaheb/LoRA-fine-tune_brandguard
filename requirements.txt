@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.4.0
+transformers>=4.45.0
+peft>=0.13.0
+trl>=0.11.0
+datasets>=3.0.0
+accelerate>=1.0.0
+bitsandbytes>=0.44.0  # 4-bit quantisation for QLoRA on small GPUs
+
+# RAG
+sentence-transformers>=3.2.0
+chromadb>=0.5.0
+
+# Agent
+langgraph>=0.2.40
+langchain-core>=0.3.0
+langchain-openai>=0.2.0       # default agent LLM
+# langchain-anthropic>=0.2.0  # uncomment if using Claude instead
+
+# Eval & utils
+scikit-learn>=1.5.0
+pandas>=2.2.0
+pydantic>=2.9.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+tqdm>=4.66.0
